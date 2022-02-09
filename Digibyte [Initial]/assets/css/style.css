@@ -1,0 +1,135 @@
+/* ----- GLOBAL RESET ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----- GLOBAL VARRIABLES ----- */
+
+:root {
+    --container-width: 1200px;
+    --color-primary: #2667ff;
+    --color-secondary: #0b1460;
+    --color-tertiary: #6ef1b2;
+    --color-body: #5c6185;
+    --color-white: #fff;
+    --color-black: #000000;
+    --color-off-white: #f6f9fb;
+    --color-primary-7: rgba(38, 103, 255, 0.07);
+    --color-primary-10: rgba(38, 103, 255, 0.1);
+    --color-secondary-10: rgba(11, 20, 96, 0.1);
+    --color-white-10: rgba(255, 255, 255, 0.1);
+    --color-white-60: rgba(255, 255, 255, 0.6);
+    --color-white-70: rgba(255, 255, 255, 0.7);
+    --color-dark: #151516;
+    --color-deep-dark: #0b0b0b;
+    --font-nunito: '';
+    --font-nunito-sans: '';
+    --font-quicksand: '';
+}
+
+
+/* ----- HEADER SECTION ----- */
+
+
+/* ----- HERO SECTION ----- */
+
+
+/* ----- SERVICES SECTION ----- */
+
+
+/* ----- EXPERIENCE SECTION ----- */
+
+
+/* ----- COUNTER SECTION ----- */
+
+
+/* ----- PROJECTS SECTION ----- */
+
+
+/* ----- CONSULTATION SECTION ----- */
+
+
+/* ----- CTA (Call to Action) SECTION ----- */
+
+
+/* ----- TESTIMONIALS SECTION ----- */
+
+
+/* ----- FAQ SECTION ----- */
+
+
+/* ----- PRICING SECTION ----- */
+
+
+/* ----- BLOG SECTION ----- */
+
+
+/* ----- FOOTER SECTION ----- */
+
+
+/* ==================== BREAKPOINTS ==================== */
+
+
+/* ----- X-Large devices (large desktops, 1200px and up) ----- */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+     :root {
+        --container-width: 1140px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+}
+
+
+/* ----- Large devices (desktops, 992px and up) ----- */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+     :root {
+        --container-width: 960px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+}
+
+
+/* ----- Medium devices (tablets, 768px and up) ----- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     :root {
+        --container-width: 760px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+}
+
+
+/* ----- Small devices (landscape phones, 576px and up) ----- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+     :root {
+        --container-width: 540px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+}
+
+
+/* ----- X-Small devices (portrait phones, less than 576px) ----- */
+
+@media (max-width: 575px) {
+     :root {
+        --container-width: 100%;
+    }
+    .container {
+        max-width: var(--container-width);
+        padding: 0 15px;
+    }
+}
