@@ -1,0 +1,595 @@
+/* ==================== BREAKPOINTS ==================== */
+
+
+/* ----- X-Large devices (large desktops, 1200px and up) ----- */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+     :root {
+        --container-width: 1140px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    header .header {
+        width: 95%;
+    }
+    header .logo {
+        margin-right: 100px;
+    }
+    .nav-menu ul {
+        margin-right: 60px;
+    }
+    .section-counter .container {
+        min-width: 1200px;
+    }
+}
+
+
+/* ----- Large devices (desktops, 992px and up) ----- */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+     :root {
+        --container-width: 960px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    /* Header */
+    .nav-menu {
+        display: none;
+    }
+    header .header {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .top-btn .btn {
+        margin-right: -170px;
+    }
+    .toggle-bar button#menu-toggle {
+        display: block;
+    }
+    .banner-top h1.main-heading {
+        font-size: 60px;
+    }
+    .hero .hero-icons .img-one {
+        display: none;
+    }
+    .hero .hero-icons .img-three {
+        top: 25%;
+        left: 4%;
+    }
+    /* Services */
+    .services .services-box .single-services {
+        flex-direction: column;
+        padding: 30px 30px 25px;
+    }
+    .section-title h2 {
+        font-size: 42px;
+    }
+    /* Experience */
+    .experience .exp-left {
+        margin-right: 50px;
+    }
+    .experience .exp-right {
+        width: calc(50% - 50px);
+    }
+    /* Counter */
+    .section-counter .container {
+        min-width: 100%;
+    }
+    .section-counter .counter-wrapper {
+        padding: 70px 50px 70px;
+    }
+    /* CTA */
+    .cta h2 {
+        font-size: 35px;
+    }
+    /* Pricing */
+    .pricing .pricing-wrapper .single-pricing {
+        padding: 30px;
+    }
+    /* Blog */
+    .blog .blog-wrapper {
+        flex-direction: column;
+    }
+    .blog .blog-wrapper .single-blog .img {
+        width: 29%;
+    }
+    .blog .blog-wrapper .single-blog {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    /* Footer */
+    #footer .footer-cta h2 {
+        font-size: 29px;
+    }
+}
+
+
+/* ----- Medium devices (tablets, 768px and up) ----- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     :root {
+        --container-width: 760px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .nav-menu {
+        display: none;
+    }
+    .toggle-bar button#menu-toggle {
+        display: block;
+    }
+    /* Header */
+    header .header {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .banner-top h1.main-heading {
+        font-size: 52px;
+    }
+    .hero .hero-icons {
+        display: none;
+    }
+    /* Services */
+    .services .services-box .single-services {
+        flex-direction: column;
+        padding: 30px 30px 25px;
+        width: calc(50% - 30px);
+    }
+    .section-title h2 {
+        font-size: 42px;
+    }
+    /* Experience */
+    .experience .exp-container {
+        justify-content: center;
+    }
+    .experience .exp-left {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .experience .exp-right {
+        width: 80%;
+        margin-top: 40px;
+    }
+    /* Counter */
+    .section-counter .container {
+        min-width: 100%;
+    }
+    .section-counter .counter-wrapper {
+        padding: 70px 0 70px;
+    }
+    /* Projects */
+    .projects .portfolio .items-wrapper .single-items {
+        flex-basis: calc(50% - 30px);
+    }
+    /* Consultation */
+    .consultation .section-wrapper {
+        justify-content: center;
+    }
+    .consultation .section-wrapper .form-consultation {
+        flex-basis: 80%;
+    }
+    .consultation .section-wrapper .consultation-right {
+        flex-basis: 80%;
+        margin-top: 60px;
+        padding-left: 0;
+    }
+    /* CTA */
+    .cta .cta-container {
+        padding: 0 35px;
+    }
+    .cta .cta-left {
+        flex-basis: 100%;
+    }
+    .cta .cta-right {
+        flex-basis: 100%;
+        text-align: left;
+    }
+    .cta-right .content {
+        margin-top: 40px;
+    }
+    .cta h2 {
+        font-size: 36px;
+    }
+    .cta .cta-right p.cta-tag {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    /* FAQ */
+    .faq .faq-content-wrapper {
+        justify-content: center;
+        padding: 100px 0 100px 0;
+        flex-direction: column;
+    }
+    .faq .left-content {
+        max-width: 80%;
+        margin-left: 0px;
+    }
+    .faq .right-content {
+        max-width: 80%;
+        margin-top: 60px;
+    }
+    /* Pricing */
+    .pricing .pricing-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing .pricing-wrapper .single-pricing {
+        flex-basis: calc(50% - 30px);
+    }
+    /* Blog */
+    .blog .blog-wrapper {
+        flex-direction: column;
+    }
+    .blog .blog-wrapper .single-blog .img {
+        width: 29%;
+    }
+    .blog .blog-wrapper .single-blog {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    /* Footer */
+    #footer .footer-cta {
+        flex-direction: column;
+    }
+    #footer .footer-cta .btn {
+        margin-top: 40px;
+    }
+}
+
+
+/* ----- Small devices (landscape phones, 576px and up) ----- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+     :root {
+        --container-width: 540px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .nav-menu {
+        display: none;
+    }
+    .toggle-bar button#menu-toggle {
+        display: block;
+    }
+    /* Header */
+    header .header {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .banner-top h1.main-heading {
+        font-size: 42px;
+    }
+    .hero .hero-icons {
+        display: none;
+    }
+    .top-btn .btn {
+        display: none;
+    }
+    /* Services */
+    .services .services-box .single-services {
+        flex-direction: column;
+        padding: 30px 30px 25px;
+        width: calc(50% - 30px);
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+    /* Experience */
+    .experience .exp-container {
+        justify-content: center;
+    }
+    .experience .exp-left {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .experience .exp-right {
+        width: 80%;
+        margin-top: 40px;
+    }
+    /* Counter */
+    .section-counter .container {
+        min-width: 100%;
+    }
+    .section-counter .counter-wrapper {
+        padding: 70px 0 70px;
+    }
+    .section-counter .counter-wrapper .single-counter {
+        flex-basis: 50%;
+        margin: 15px 0;
+    }
+    /* Projects */
+    .projects .portfolio .items-wrapper .single-items {
+        flex-basis: calc(50% - 30px);
+    }
+    /* Consultation */
+    .consultation .section-wrapper {
+        justify-content: center;
+    }
+    .consultation .section-wrapper .form-consultation {
+        flex-basis: 80%;
+    }
+    .consultation .section-wrapper .consultation-right {
+        flex-basis: 80%;
+        margin-top: 60px;
+        padding-left: 0;
+    }
+    /* CTA */
+    .cta .cta-container {
+        padding: 0 35px;
+    }
+    .cta .cta-left {
+        flex-basis: 100%;
+    }
+    .cta .cta-right {
+        flex-basis: 100%;
+        text-align: left;
+    }
+    .cta-right .content {
+        margin-top: 40px;
+    }
+    .cta h2 {
+        font-size: 30px;
+    }
+    .cta .cta-right p.cta-tag {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    /* FAQ */
+    .faq .faq-content-wrapper {
+        justify-content: center;
+        padding: 100px 0 100px 0;
+        flex-direction: column;
+    }
+    .faq .left-content .video-cont {
+        height: 460px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .faq .left-content {
+        max-width: 80%;
+        margin-left: 0px;
+    }
+    .faq .right-content {
+        max-width: 80%;
+        margin-top: 60px;
+    }
+    /* Pricing */
+    .pricing .pricing-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing .pricing-wrapper .single-pricing {
+        flex-basis: 100%;
+    }
+    /* Blog */
+    .blog .blog-wrapper {
+        flex-direction: column;
+    }
+    .blog .blog-wrapper .single-blog .img {
+        width: 100%;
+        position: relative;
+        height: 300px;
+    }
+    .blog .blog-wrapper .single-blog .img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+    }
+    .blog .blog-wrapper .single-blog .content-area {
+        width: 100%;
+    }
+    .blog .blog-wrapper .single-blog {
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    /* Footer */
+    #footer .footer-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 50px;
+    }
+    #footer .footer-cta .btn {
+        margin-top: 40px;
+    }
+}
+
+
+/* ----- X-Small devices (portrait phones, less than 576px) ----- */
+
+@media (max-width: 575px) {
+     :root {
+        --container-width: 100%;
+    }
+    .container {
+        max-width: var(--container-width);
+        padding: 0 15px;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .toggle-bar button#menu-toggle {
+        display: block;
+    }
+    /* Header */
+    header .header {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .banner-top h1.main-heading {
+        font-size: 28px;
+    }
+    .banner-top p.banner-bottom {
+        width: 100%;
+    }
+    .hero .hero-icons {
+        display: none;
+    }
+    .top-btn .btn {
+        display: none;
+    }
+    /* Services */
+    .services .services-box .single-services {
+        flex-direction: column;
+        padding: 30px 30px 25px;
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+    /* Experience */
+    .experience .exp-container {
+        justify-content: center;
+    }
+    .experience .exp-left {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .experience .exp-right {
+        width: 100%;
+        margin-top: 40px;
+    }
+    /* Counter */
+    .section-counter .container {
+        min-width: 100%;
+    }
+    .section-counter .counter-wrapper {
+        padding: 70px 0 70px;
+    }
+    .section-counter .counter-wrapper .single-counter {
+        flex-basis: 100%;
+        margin: 30px 0;
+    }
+    /* Projects */
+    .projects .portfolio .items-wrapper .single-items {
+        flex-basis: 100%;
+    }
+    /* Consultation */
+    .consultation .section-wrapper {
+        justify-content: center;
+    }
+    .consultation .section-wrapper .form-consultation {
+        flex-basis: 100%;
+    }
+    .consultation .section-wrapper .consultation-right {
+        flex-basis: 100%;
+        margin-top: 60px;
+        padding-left: 0;
+    }
+    /* CTA */
+    .cta .cta-container {
+        padding: 0;
+    }
+    .cta .cta-left {
+        flex-basis: 100%;
+    }
+    .cta .cta-right {
+        flex-basis: 100%;
+        text-align: left;
+    }
+    .cta-right .content {
+        margin-top: 40px;
+    }
+    .cta h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .cta .cta-right p.cta-tag {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    /* Testimonials */
+    .testimonials .testimonial-wrapper .single-testimonial .testi-box {
+        padding: 25px;
+    }
+    /* FAQ */
+    .faq .faq-content-wrapper {
+        justify-content: center;
+        padding: 100px 0 100px 0;
+        flex-direction: column;
+    }
+    .faq .left-content .video-cont {
+        height: 350px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .faq .right-content .faq-wrapper .single-faq h4 {
+        font-size: 16px;
+    }
+    .faq .right-content .faq-wrapper .single-faq h4::before,
+    .faq .right-content .faq-wrapper .single-faq h4::after {
+        right: 10px;
+    }
+    .faq .left-content {
+        max-width: 80%;
+        margin-left: 0px;
+    }
+    .faq .right-content {
+        max-width: 80%;
+        margin-top: 60px;
+    }
+    /* Pricing */
+    .pricing .pricing-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing .pricing-wrapper .single-pricing {
+        flex-basis: 100%;
+    }
+    /* Blog */
+    .blog .blog-wrapper {
+        flex-direction: column;
+    }
+    .blog .blog-wrapper .single-blog .img {
+        width: 100%;
+        position: relative;
+        height: 300px;
+    }
+    .blog .blog-wrapper .single-blog .img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+    }
+    .blog .blog-wrapper .single-blog .content-area {
+        width: 100%;
+    }
+    .blog .blog-wrapper .single-blog {
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    /* Footer */
+    #footer .footer-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 35px 35px;
+    }
+    #footer .footer-cta .btn {
+        margin-top: 40px;
+    }
+    #footer .footer-cta h2 {
+        font-size: 29px;
+    }
+}
