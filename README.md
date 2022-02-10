@@ -10,7 +10,7 @@
 🌺 You can use that as your own portfolio and show that to the world. A basic understanding of HTML, CSS, and JavaScript is required to watch this video. 
 </br></br>
 
-<a href="https://youtu.be/cKSFflYWGGY"><img src="https://raw.githubusercontent.com/wptoday/Digibyte/main/Preview.jpg" alt="Digibyte" border="0" max-width='50%' ></a>
+<a href="https://youtu.be/cKSFflYWGGY" target='_blank'><img src="https://raw.githubusercontent.com/wptoday/Digibyte/main/Preview.jpg" alt="Digibyte" border="0" max-width='50%' ></a>
 
 
 🔗 My Channel <a href='//www.youtube.com/channel/UCKr4VRLJU3bhQ-scnvQSKjQ/'>WP Today</a>
