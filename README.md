@@ -1,6 +1,6 @@
 <h2>🔥 Complete Responsive Portfolio Website Design Using HTML CSS & JavaScript From Scratch</h2>
 
-<a href='https://youtu.be/cKSFflYWGGY' target='_blank'><h2>Watch This in YouTube</h2></a>
+<a href='https://youtu.be/cKSFflYWGGY' target='_blank'><h2>Watch This Video in YouTube</h2></a>
 
 🪄 In this video, you will learn to create a complete responsive portfolio website design using HTML CSS & JavaScript. It’s all from scratch with source code. I used CSS Flexbox to create this website. 
 
