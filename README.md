@@ -2,12 +2,12 @@
 
 <a href='https://youtu.be/cKSFflYWGGY' target='_blank'><h2>Watch This Video in YouTube</h2></a>
 
-🪄 In this video, you will learn to create a complete responsive portfolio website design using HTML CSS & JavaScript. It’s all from scratch with source code. I used CSS Flexbox to create this website. 
+🪄 In this video, you will learn to create a responsive portfolio website design using HTML CSS & JavaScript (JQuery). There will be feature of switching dark/light mode. Users can select either dark mode or light mode. The chosen mode will save on the browser’s local storage and when users will come back they can use the site as their chosen mode. It’s all from scratch with source code. I used CSS Flexbox to create this website. 
 
 ➡️ Learn more about CSS Flexbox: 
 🔗 https://www.freecodecamp.org/news/learn-css-flexbox-in-5-minutes-b941f0affc34/
 
-🌺 You can use that as your own portfolio and show that to the world. A basic understanding of HTML, CSS, and JavaScript is required to watch this video. 
+🌺 You can use that as your own portfolio and show that to the world. A basic understanding of HTML, CSS, and JavaScript (JQuery) is required to do this project. So, I highly recommend that.
 </br></br>
 
 <a href="https://youtu.be/cKSFflYWGGY" target='_blank'><img src="https://raw.githubusercontent.com/wptoday/Digibyte/main/Preview.jpg" alt="Digibyte" border="0" max-width='50%' ></a>
